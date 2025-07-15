@@ -3,3 +3,22 @@
    padding: 0;
     box-sizing: border-box;
 }
+/* Romit- I am having troubles setting heading size and postion, it works but is not proper */
+#heading {
+    font: bold 3rem 'Segoe UI', Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Added Background div */
+div {
+    width: 20%; 
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #FFF7D8;
+    z-index: -1;
+}
