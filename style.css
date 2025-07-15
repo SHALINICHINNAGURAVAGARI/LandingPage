@@ -96,3 +96,82 @@ body {
     background-color: #FFF7D8;
     z-index: -2;
 }
+
+header{
+    position: relative;
+    height: 80px;
+    display:flex;
+    align-items:center;
+    background-color: rgb(223, 130, 130);
+
+    width: 100vw;
+}
+
+.logo{
+    position: absolute;
+    left: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+}
+
+.menu{
+    margin: 0 auto;
+    display:flex;
+    gap:50px;
+}
+
+.menu div{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    cursor:pointer;
+    transition: color 0.3s ease;
+}
+
+.menu div:active{
+    color: #555;
+}
+
+
+.contact{
+    position: absolute;
+    right: 60px;
+    background-color: #000;
+    color:#fff;
+    padding:8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.contact:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+.contact:active{
+    background-color: #333;
+}
+
+/*Responsiveness*/
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap:15px;
+    }
+    .logo,.contact{
+        position: static;
+    }
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
