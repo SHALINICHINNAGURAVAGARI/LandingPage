@@ -94,5 +94,5 @@ body {
     left: 50%; 
     transform: translateX(-50%); 
     background-color: #FFF7D8;
-    z-index: -1;
+    z-index: -2;
 }
