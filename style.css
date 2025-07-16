@@ -15,3 +15,18 @@ html,body{
 .parent2{
     height: 100vh;
 }
+
+/* romits-main-section-styling*/
+#romits-main-section {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* To arrange items inside vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally within this container */
+}
