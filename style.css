@@ -28,5 +28,41 @@ html,body{
     /* To arrange items inside vertically */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers items horizontally within this container */
+    align-items: center;
+}
+
+/* Romit's Search Bar Styling */
+.romits-search-bar-wrapper {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+.romits-search-bar-wrapper input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    font-size: 1em;
+}
+
+/* Romit's Cards Container Styling */
+#romits-cards-container {
+    display: flex;
+    overflow-x: auto; 
+    width: 100%; 
+    padding-bottom: 5px;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Romit's Individual Small Card Styling */
+.romit-small-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    width: 180px;
+    height: 120px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    text-align: center;
 }
