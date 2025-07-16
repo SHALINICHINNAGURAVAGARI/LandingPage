@@ -34,16 +34,27 @@ html,body{
 /* Romit's Search Bar Styling */
 .romits-search-bar-wrapper {
     width: 100%; 
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
 }
 
-.romits-search-bar-wrapper input {
-    width: 100%; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 20px; 
+/* NEW: Style for the group containing search icon, input, and voice icon */
+.romits-search-input-group {
+    display: flex; /* Arranges items horizontally */
+    align-items: center; /* Vertically centers items */
+    border: 1px solid #ccc; /* Border around the entire search bar group */
+    border-radius: 20px; /* Roundy shape for the entire search bar */
+    padding: 8px 15px; /* Padding inside the search bar group */
+}
+
+.romits-search-input-group input {
+    flex-grow: 1; /* Allows the input to take up all available space */
+    border: none; /* Remove border from the input itself */
+    outline: none; /* Removes the blue outline when clicked */
+    padding: 0 10px; /* Add horizontal padding between text and icons */
     font-size: 1em;
 }
+
+
 
 /* Romit's Cards Container Styling */
 #romits-cards-container {
