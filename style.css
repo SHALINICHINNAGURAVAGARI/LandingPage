@@ -15,54 +15,55 @@ html,body{
 .parent2{
     height: 100vh;
 }
-
-/* romits-main-section-styling*/
-#romits-main-section {
-    background-color: #f9f9f9;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 40px auto;
-    max-width: 900px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-    /* To arrange items inside vertically */
+.main-div{
+    height: 40%;
+    width: 97%;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: 12%;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+}
+.text div{
+    font-size: 70px;
+    font-weight: 600;
 }
 
-/* Romit's Search Bar Styling */
-.romits-search-bar-wrapper {
-    width: 100%; 
-    margin-bottom: 10px; 
+.transp-bgc{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://imgs.search.brave.com/MGklTKpUrMpUjh65BzPeIywzxPpnDB8JJP3I-jFDqLk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTA2/ODU2NjU4L3Bob3Rv/L2JlYXV0aWZ1bC1u/YXR1cmUtYXQtbW9y/bmluZy1pbi1taXN0/eS1zcHJpbmctZm9y/ZXN0LXdpdGgtc3Vu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz01T3lLM2RvVTBI/NE9HSHVlTjFDb2Ey/cjlkZWlXeWx5X3NK/UlNkZGdSblJVPQ);
+   
 }
-
-.romits-search-bar-wrapper input {
-    width: 100%; 
-    padding: 10px; 
-    border: 1px solid #ccc; 
-    border-radius: 20px; 
-    font-size: 1em;
-}
-
-/* Romit's Cards Container Styling */
-#romits-cards-container {
+.parent-blur{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    height: 80%;
+    width:30%;
+    border-radius: 20px;
     display: flex;
-    overflow-x: auto; 
-    width: 100%; 
-    padding-bottom: 5px;
-    gap: 25px;
-    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
 }
-
-/* Romit's Individual Small Card Styling */
-.romit-small-card {
-    background-color: white;
-    border-radius: 12px;
-    padding: 15px;
-    width: 180px;
-    height: 120px;
-    flex-shrink: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-    text-align: center;
+.parent-blur button{
+    margin: 12px;
+    padding: 5px;
+    width: auto;
+    border-radius: 30px;
+    border: transparent;
+    backdrop-filter: blur(4px);
+    background-color: rgba(79, 79, 79, 0.5);
+    cursor: pointer;
+    color: white;
+    
 }
