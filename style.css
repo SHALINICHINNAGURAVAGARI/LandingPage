@@ -29,16 +29,6 @@ html,body{
     height: 100%;
     width: 50%;
     padding: 10px;
-}
-
-/* romits-main-section-styling*/
-#romits-main-section {
-    background-color: #f8f8f7;
-    border-radius: 24px;
-    padding: 36px;
-    margin: 40px auto;
-    max-width: 940px;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +37,7 @@ html,body{
     font-size: 70px;
     font-weight: 600;
 }
+
 .transp-bgc{
     height: 100%;
     width: 50%;
@@ -152,81 +143,4 @@ html,body{
     .icon,.sign-in,.sign-up{
         position: static;
     }
-/* Romit's Search Bar Styling */
-.romits-search-bar-wrapper {
-    width: 100%; 
-    margin-bottom: 26px; 
-}
-
-/* Style for the group containing search icon, input, and voice icon */
-.romits-search-input-group {
-    display: flex;
-    align-items: center;
-    border: 1.5px solid #b3b3b3;
-    border-radius: 24px;
-    padding: 10px 20px;
-    background: #eceee4;
-    transition: border-color 0.18s;
-}
-.romits-search-input-group:focus-within {
-    border-color: #888;
-}
-
-.romits-search-input-group input {
-    flex-grow: 1;
-    border: none;
-    outline: none;
-    padding: 0 14px;
-    font-size: 1.08em;
-    background: transparent;
-}
-
-/* Romit's Cards Container Styling */
-#romits-cards-container {
-    display: flex;
-    overflow-x: auto; 
-    width: 100%; 
-    padding-bottom: 10px;
-    gap: 32px;
-    justify-content: center;
-    scrollbar-width: thin;
-    scrollbar-color: #e0e0e0 #fafbfc;
-}
-
-/* Romit's Individual Small Card Styling */
-.romit-small-card {
-    background-color: #fff;
-    border-radius: 16px;
-    padding: 20px;
-    width: 180px;
-    height: 100px;
-    flex-shrink: 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    transition: transform 0.20s cubic-bezier(0.4,0,0.2,1), box-shadow 0.20s cubic-bezier(0.4,0,0.2,1);
->>>>>>> origin/romit
-}
-
-.romit-small-card:hover {
-    transform: translateY(-3px) scale(1.01);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
-    z-index: 2;
-}
-
-.romit-card-icon {
-    font-size: 1.75em;
-    margin-bottom: 12px;
-    color: #3a3a3a;
-}
-.romit-small-card p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.04em;
-    color: #232323;
-    font-weight: 500;
-    line-height: 1.24;
 }
