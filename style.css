@@ -156,7 +156,9 @@ html,body{
     background-color: #f8f8f7;
     border-radius: 24px;
     padding: 36px;
-    margin: 40px auto;
+    position: absolute;
+    top: 60%;
+    left: 15%;
     max-width: 940px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
 
